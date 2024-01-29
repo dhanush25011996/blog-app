@@ -33,7 +33,7 @@ const App = () => {
         ) : (
           <>
             <Link to={"/createpost"}>Create Post</Link>
-            <button className="" onClick={signUserOut}>
+            <button className="logoutbutton" onClick={signUserOut}>
               LogOut
             </button>
           </>
